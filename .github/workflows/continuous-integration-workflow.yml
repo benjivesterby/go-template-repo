@@ -13,7 +13,7 @@ jobs:
         uses: benjivesterby/update-sync-on-template-use@main
         with: 
           token: "${{ secrets.GH_PAT }}"
-          org: "devnw"
-          repo: "shared"
+          # org: "devnw"
+          # repo: "shared"
           sync_file: sync.yml
           # siging_key: "${{ secrets.GPG_KEY }}"
