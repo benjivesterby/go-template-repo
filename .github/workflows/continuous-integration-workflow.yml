@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.4.0
       - name: Template Test
-        uses: benjivesterby/update-sync-on-template-use
+        uses: benjivesterby/update-sync-on-template-use@main
         with: 
           token: "${{ secrets.GH_PAT }}"
           org: "devnw"
